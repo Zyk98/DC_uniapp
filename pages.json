@@ -1,0 +1,132 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": 
+		{
+			"app-plus":{
+				//导航栏
+				"titleNView":{
+					//搜索框配置
+					"searchInput":{
+						"align":"center",
+						"backgroundColor":"#F5F4F2",
+						"borderRadius":"4px",
+						"disabled":true,
+						"placeholder":"搜索",
+						"placeholderColor":"#6D6C67"	
+					},
+					"buttons":[
+						{
+							"color":"#ffffff",
+							"colorPressed":"#B1263B",
+							"float":"right",
+							"fontSize":"22px",
+							// 未完成
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue668"							
+						}
+					]
+				}
+			}
+		}
+	},{
+		"path" : "pages/message/message",
+		"style" :                                                                                    
+		{
+
+		}
+		
+	},{
+		"path" : "pages/search/search",
+		"style" :
+		{
+			"app-plus":{
+				//导航栏
+				"titleNView":{
+					//搜索框配置
+					"searchInput":{
+						"align":"center",
+						"backgroundColor":"#F5F4F2",
+						"borderRadius":"4px",
+						"placeholder":"你想要搜索什么物品呢~~",
+						"placeholderColor":"#6D6C67"	
+					},
+					"buttons":[
+						{
+							"color":"#ffffff",
+							"colorPressed":"#B1263B",
+							"float":"right",
+							"fontSize":"16px",
+							"text":"搜索"							
+						}
+					]
+				}
+			}
+		}
+		
+	},{
+		"path" : "pages/my/my",
+		"style" :                                                                                    
+		{
+
+		}	
+	},{
+		"path" : "pages/list/list",
+		"style" :                                                                                    
+		{
+
+		}
+		
+	},{
+		"path" : "pages/add-input/add-input",
+		"style" :                                        
+		{
+			"app-plus":{
+				"titleNView":false
+			}
+
+		}
+		
+	}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "社区交友",
+		//#B1263B是矿大红
+		"navigationBarBackgroundColor": "#B1263B",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"color":"#515151",
+		"selectedColor":"#B1263B",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/tabBarIcon/index.png",
+				"selectedIconPath":"static/tabBarIcon/index-colored.png"
+			},
+			{
+				"pagePath":"pages/list/list",
+				"text":"列表",
+				"iconPath":"static/tabBarIcon/list.png",
+				"selectedIconPath":"static/tabBarIcon/list-colored.png"
+			},
+			{
+				"pagePath":"pages/message/message",
+				"text":"消息",
+				"iconPath":"static/tabBarIcon/message.png",
+				"selectedIconPath":"static/tabBarIcon/message-colored.png"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"static/tabBarIcon/my.png",
+				"selectedIconPath":"static/tabBarIcon/my-colored.png"
+			}
+		]
+		
+	}
+}
